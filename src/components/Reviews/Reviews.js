@@ -3,7 +3,7 @@ import useReviews from "../../hooks/useReviews";
 import Review from "../Review/Review";
 
 const Reviews = () => {
-  const [reviews, setReviews] = useReviews();
+  const [reviews] = useReviews();
   return (
     <div className="reviews-container">
       {reviews.map((review) => (
