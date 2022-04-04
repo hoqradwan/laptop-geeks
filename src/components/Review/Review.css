@@ -1,11 +1,29 @@
 .review {
   width: 300px;
-  height: 210px;
+  height: 230px;
   border: 1px solid #95a0a7;
   border-radius: 20px;
   padding: 20px;
+  position: relative;
+}
+.review-heading{
+  display: flex;
+  align-items: center;
 }
 .customer-name {
-  text-align: center;
   color: #4a72eb;
+  margin-left: 20px;
+}
+.user-image{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.rating{
+ 
+  color: orange;
+}
+.rate{
+  position: absolute;
+  bottom: 2px;
 }
