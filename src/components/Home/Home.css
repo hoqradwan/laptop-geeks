@@ -32,12 +32,15 @@
   border: none;
   background-color: #4a72eb;
   color: white;
-  margin-left: 550px;
-  margin-bottom: 50px;
-  padding: 5px 30px;
+  padding: 7px 30px;
   cursor: pointer;
+  border-radius: 20px ;
 }
-.image-container img{
+.button-div {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.image-container img {
   width: 400px;
   height: 300px;
 }

@@ -7,7 +7,7 @@ import "./Home.css";
 const Home = () => {
   const [reviews, setReviews] = useReviews();
   const navigate = useNavigate();
- 
+
   return (
     <>
       <div className="home-container">
@@ -24,7 +24,8 @@ const Home = () => {
           </p>
         </div>
         <div className="image-container">
-          <img src={require('../../Assets/Images/mackbookpro.jpg')}/>        </div>
+          <img src={require("../../Assets/Images/mackbookpro.jpg")} />
+        </div>
       </div>
 
       <div>
@@ -35,9 +36,11 @@ const Home = () => {
           ))}
         </div>
       </div>
-      <button onClick={() => navigate("/reviews")} className="reviews-button">
-        See All Reviews
-      </button>
+      <div className="button-div">
+        <button onClick={() => navigate("/reviews")} className="reviews-button">
+          See All Reviews
+        </button>
+      </div>
     </>
   );
 };
