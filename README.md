@@ -1,6 +1,6 @@
 # Laptop Geeks
 
-live site [laptop geeks](https://singular-narwhal-a0a0c8.netlify.app).
+live site [laptop geeks](https://willowy-squirrel-8c121a.netlify.app).
 
 
 
