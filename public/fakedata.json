@@ -1,0 +1,50 @@
+
+[
+    {
+        "image": "",
+        "id": 1,
+        "name": "Rajib Hasan",
+        "reviewing": "Apple Macbook pro is an amazing laptop. It's blazing fast and easy to use. I am usung this product for 1 year. It is a great experience to operate this laptop.",
+        "rate": 4.8
+    },
+
+    {
+        "image": "",
+        "id": 2,
+        "name": "Shahin Afridi",
+        "reviewing": "This device is way more better than windows pc. it's providing me with excellent performance",
+        "rate": 4.5
+    },
+
+{
+        "image": "",
+        "id": 3,
+        "name": "Imran Najir",
+        "reviewing": "Apple is a giant brand with high performing devices. Macbook pro is one of them. I was a windows user. Shifting to macbook pro is a bit uncomfortable for me. ",
+        "rate": 4
+    },
+
+{
+        "image": "",
+        "id": 4,
+        "name": "Nasir Jamshed",
+        "reviewing": "My productivity has increased after using this laptop. It has amazing features with a good performance",
+        "rate": 4.3
+    },
+
+{
+        "image": "",
+        "id": 5,
+        "name": "Bariul Alam",
+        "reviewing": "Macbook pro is a sensational laptop that is being used by many high officials and productive persons. It indicates that It is a very promising device in the aspect of perdormance.",
+        "rate": 4.4
+    },
+
+    {
+        "image": "",
+        "id": 6,
+        "name": "Mohammad Shehjad",
+        "reviewing": "I am not so satisfied in using Macbook pro. Though it is a high performant laptop, windows pc is more comfortable for me.",
+        "rate": 3.8
+    }
+]

@@ -1,0 +1,14 @@
+.home-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 200px;
+  margin: 50px;
+}
+.heading-container {
+  margin-left: 30px;
+}
+
+.blue-text {
+  color: #4a72eb;
+  font-size: 40px;
+}
