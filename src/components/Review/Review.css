@@ -3,9 +3,9 @@
   height: 300px;
   border: 1px solid #95a0a7;
   border-radius: 20px;
-  padding: 20px
-  ;
+  padding: 20px;
 }
-.customer-name{
-    text-align: center;
+.customer-name {
+  text-align: center;
+  color: #4a72eb;
 }
