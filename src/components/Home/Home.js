@@ -5,7 +5,8 @@ import Review from "../Review/Review";
 import "./Home.css";
 
 const Home = () => {
-  const [reviews, setReviews] = useReviews();
+  const [reviews] = useReviews();
+  const slicedReviews = reviews.slice(0,3);
   const navigate = useNavigate();
 
   return (
@@ -31,9 +32,9 @@ const Home = () => {
       <div>
         <h1 className="review-header">Customer Reviews</h1>
         <div className="reviews-container">
-          {reviews.map((review) => (
+          {slicedReviews.map(review =>
             <Review key={review.id} review={review}></Review>
-          ))}
+          )}
         </div>
       </div>
       <div className="button-div">
