@@ -1,6 +1,6 @@
 # Laptop Geeks
 
-live site [laptop geeks](https://github.com/facebook/create-react-app).
+live site [laptop geeks](https://singular-narwhal-a0a0c8.netlify.app).
 
 
 
