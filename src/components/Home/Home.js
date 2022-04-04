@@ -6,7 +6,7 @@ import "./Home.css";
 
 const Home = () => {
   const [reviews] = useReviews();
-  const slicedReviews = reviews.slice(0,3);
+  const slicedReviews = reviews.slice(0, 3);
   const navigate = useNavigate();
 
   return (
@@ -25,16 +25,16 @@ const Home = () => {
           </p>
         </div>
         <div className="image-container">
-          <img src={require("../../Assets/Images/mackbookpro.jpg")} />
+          <img src={require("../../Assets/Images/mackbookpro.jpg")} alt="" />
         </div>
       </div>
 
       <div>
         <h1 className="review-header">Customer Reviews</h1>
         <div className="reviews-container">
-          {slicedReviews.map(review =>
+          {slicedReviews.map((review) => (
             <Review key={review.id} review={review}></Review>
-          )}
+          ))}
         </div>
       </div>
       <div className="button-div">
