@@ -1,28 +1,30 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import useReviews from "../../hooks/useReviews";
 import Review from "../Review/Review";
 import "./Home.css";
 
 const Home = () => {
   const [reviews, setReviews] = useReviews();
+  const navigate = useNavigate();
   return (
     <>
       <div className="home-container">
         <div className="heading-container">
-          <h1>Power To Go</h1>
-          <h1 className="blue-text">A new sensation for professionals</h1>
+          <p className="power-text">Power To Go</p>
+          <p className="blue-text">A new sensation for professionals</p>
           <p>
             The Apple M1 chip gives the 13‑inch MacBook Pro speed and power
             beyond belief. With up to 2.8x CPU performance. Up to 5x the
             graphics speed. An advanced Neural Engine for up to 11x faster
             machine learning. And up to 20 hours of battery life so you can go
-            all day. It’s our most popular pro notebook, taken to a whole new
-            level.{" "}
+            all day. Its our most popular pro notebook, taken to a whole new
+            level.
           </p>
         </div>
         <div>
           <h1>Image</h1>
-          <img src="../../Images/laptop-12.png" alt="" />
+          <img src="../Assets/Images/laptop-12.png" alt="" />
         </div>
       </div>
 
@@ -34,6 +36,7 @@ const Home = () => {
           ))}
         </div>
       </div>
+      <button onClick={()=>navigate('/reviews')} className="reviews-button">See All Reviews</button>
     </>
   );
 };

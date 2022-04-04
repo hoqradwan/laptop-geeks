@@ -11,4 +11,29 @@
 .blue-text {
   color: #4a72eb;
   font-size: 40px;
+  font-weight: bold;
+}
+.power-text {
+  line-height: 0;
+  font-weight: bold;
+  font-size: 40px;
+}
+.reviews-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin: 50px;
+}
+.review-header {
+  text-align: center;
+  margin-top: 100px;
+}
+.reviews-button {
+  border: none;
+  background-color: #4a72eb;
+  color: white;
+  margin-left: 600px;
+  margin-bottom: 50px;
+  padding: 5px 30px;
+  cursor: pointer;
 }
